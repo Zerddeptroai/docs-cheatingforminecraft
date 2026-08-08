@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Tải Minecraft Bedrock Server
       run: |
-        curl -L -o server.zip https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.43.1.zip -DestinationPath server
+        curl -L -o bedrock-server-1.26.43.1.zip https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.43.1.zip -DestinationPath server
     - name: Cài đặt và Chạy ngrok mở cổng 19132
       run: |
         choco install ngrok
